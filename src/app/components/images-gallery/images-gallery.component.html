@@ -1,0 +1,10 @@
+<h2>Uploaded Images</h2>
+<div class="images__list">
+  @for (image of listOfImages(); track image) {
+    <div class="image__card">
+      <img [src]="image.url" [alt]="image.name" width="auto" height="200px" loading="lazy">
+    </div>
+  } @empty {
+    <div>No images uploaded yet.</div>
+  }
+</div>

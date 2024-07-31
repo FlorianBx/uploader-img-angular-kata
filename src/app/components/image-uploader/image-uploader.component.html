@@ -1,0 +1,9 @@
+<h2>Upload Image</h2>
+<input type="file" (change)="onFileChange($event)">
+<button (click)="onSubmit()">Upload</button>
+@if (imagePreview) {
+  <div>
+    <h3>Preview</h3>
+    <img [src]="imagePreview" alt="Image Preview" width="100px" height="auto" loading="lazy">
+  </div>
+}

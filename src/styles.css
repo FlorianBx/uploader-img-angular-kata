@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  color: #eeeeee;
+  background-color: #111111;
+  /* background-image: url('assets/Haikei\ scene.svg'); */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  z-index: -1;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', cursive;
+  font-size: 46px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: 'Hind Guntur', sans-serif;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: #eeeeee;
+}

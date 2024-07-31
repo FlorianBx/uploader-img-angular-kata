@@ -1,0 +1,24 @@
+h2 {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.images__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.image__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 5px;
+  background-color: #111111;
+}
